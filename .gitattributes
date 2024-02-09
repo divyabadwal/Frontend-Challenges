@@ -1,2 +1,76 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 1</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Outfit&family=Roboto:wght@300&display=swap');
+
+        :root {
+            --white: hsl(0, 0%, 100%);
+            --Lightgray: hsl(212, 45%, 89%);
+            --Grayishblue: hsl(220, 15%, 55%);
+            --Darkblue: hsl(218, 44%, 22%);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--Lightgray);
+            font-family: 'Outfit', sans-serif;
+        }
+
+        .container {
+            border: 2px solid var(--white);
+            background-color: var(--white);
+            border-radius: 15px;
+            height: fit-content;
+            width: 250px;
+            margin: 110px auto;
+        }
+
+        .image img {
+            border-radius: 9px;
+            height: 225px;
+            margin: 10px auto;
+            display: flex;
+        }
+
+        .text {
+            padding: 15px;
+            padding-bottom: 40px;
+            text-align: center;
+        }
+
+        h3 {
+            color: var(--Darkblue);
+            font-weight: 700;
+        }
+
+        p {
+            margin-top: 10px;
+            font-size: 15px;
+            color: var(--Grayishblue);
+            font-weight: 400;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="C:\Users\divya\OneDrive\Documents\image-qr-code.png" alt="image">
+        </div>
+        <div class="text">
+            <h3>Improve your front-end skills by building projects</h3>
+            <p>Scan the QR code to visit Frontend Mentore and take your coding skills to the next level</p>
+        </div>
+    </div>
+</body>
+
+</html>
